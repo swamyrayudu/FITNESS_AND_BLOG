@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.5rem;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+*
+{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.py
+{
+    /* color: black; */
+    margin: 18px;
+    width: 70%;
+    height: 37px;
+    /* border-radius: 2px; */
+    /* border: 1px solid rgb(168 85 247); */
+    /* outline: none; */
+    margin-left: 60px;
+    /* padding: 2px 12px; */
+    color: black;
+}
+.btn
+{
+    width: 110px;
+    height: 35px;
+    margin-left: 60px;
+    margin-top: 10px;
+    
+}
+.to
+{
+  padding-left:140px;
+  padding-top: 20px;
+}
+.item
+{
+  border: 1px solid gray;
+}
+
+.lab
+{
+  color: black;
+  margin-left: 70px;
+}
+/* .bto
+{
+  border: 2px solid black;
+  border-radius: 2px;
+} */
+ .no
+ {
+  /* position: relative; */
+  cursor: pointer;
+  color: black;
+  padding: 0.5rem 1rem ;
+  transition: color 0.25s;
+ }
+ .no:hover
+ {
+  color: white;
+  background-color: black;
+  border-radius: 4px;
+
+
+ }
+.img
+{
+  background-image: url("C:\Users\swamy\Documents\swamy web dev\react\login and register\vite-project\images\pexels-ella-olsson-572949-1640773-Photoroom.png");
+  width: 100%;
+  height: 653px;
+  background-size: cover;
+}
+.font
+{
+  font-family: "Allerta", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.icon
+{
+  position: absolute;
+  top: -1;
+  left: 72px;
+  color: red;
+}
+.rayu
+{
+  position: absolute;
+  bottom: 0px;
+}
+hr  {
+  width: 1px;             /* Set the thickness (width) of the vertical line */
+  height: 720px;          /* Adjust the height as needed */
+  background-color: black; /* Set the line color */
+  border: none;           /* Remove the default border */
+  position: absolute;
+  bottom: 7px;
+  left: 660px;
+}
+.sheet
+{
+  position: absolute;
+  right: 60px;
+  top: 80px;
+}
+.hoo
+{
+  border: 2px solid black;
+  border-radius: 10px;
+}
